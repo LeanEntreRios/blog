@@ -65,31 +65,33 @@
           <a href="mailto:contacto@invie.com"><strong>E-mail</strong><span>contacto@invie.com</span></a>
         </div>
         <form class="formulario">
-          <label for="nombre">Nombre</label>
-          <input type="text" required id="nombre" name="nombre">
-          <label for="Email">E-mail</label>
+          <div class="col1">
+            <label for="nombre">Nombre</label>
+            <input type="text" required id="nombre" name="nombre">
+            <label for="Email">E-mail</label>
             <input type="email" required id="email" name="email">
             <div class="sexo">
-             <label for="mujer">
-                <input type="radio" id="mujer" name="sexo" value="Mujer">Mujer
-              </label>
+              <label for="mujer">
+                <input type="radio" id="mujer" name="sexo" checked value="Mujer">Mujer</label>
               <label for="hombre">
-                <input type="radio" id="hombre" name="sexo" value="Hombre">Hombre
-              </label>
+                <input type="radio" id="hombre" name="sexo" value="Hombre">Hombre</label>
+            </div>
             </div>
             <div class="intereses">
               <label for="cotizacion">
-                <input type="checkbox" id="cotizacion" name="intereses" value="Cotizacion">Cotización
+                <input type="checkbox" id="cotizacion"  checked name="intereses" value="Cotizacion">Cotización
                 </label>
                 <label for="reclamos">
                   <input type="checkbox" id="reclamos" name="intereses" value="Reclamos">Reclamos
                   </label>
-                  <label for="comentarios">
-                    <input type="checkbox" id="comentarios" name="intereses" value="Comentarios">Comentarios
+                  <div class="col2">
+                    <label for="comentarios">
+                      <input type="checkbox" id="comentarios" name="intereses" value="Comentarios">Comentarios
                     </label>
                     <label for="otros">
                       <input type="checkbox" id="otros" name="intereses" value="Otros">Otros
-                      </label>
+                    </label>
+                  </div>
               </div>
               <div class="">
                 <label for="comentarios">Comentarios</label>

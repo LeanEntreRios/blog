@@ -93,13 +93,45 @@ margin-top: 70px;
 .footer{
   background: #273b47;
 }
+.contacto{
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+}
 .contacto img {
   margin-right:486px;
 }
 .contacto strong{
   display: block;
 }
-.contacto a{
+.contacto a {
   color: white;
   text-decoration: none;
+  margin: 10px 10px 10px 0;
+}
+.footer .contenedor{
+  display: flex;
+  color: white;
+
+}
+.formulario {
+  display: flex;
+  width: 400px;
+  padding: 50px 10px;
+}
+.col1, .col2 {
+  display: flex;
+  flex-direction: column;
+}
+.col1{
+  margin-right: 15px;
+}
+.intereses label {
+  font-size: 15px;
+}
+.formulario label, .sexo, .intereses {
+  margin-bottom: 10px;
+}
+.sexo{
+  margin-top: 10px;
 }
